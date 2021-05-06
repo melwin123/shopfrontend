@@ -1,1 +1,56 @@
-<p>header works!</p>
+<body>
+    <div class="row">
+        <nav class="navbar navbar-default ">
+
+               <div class="navbar-collapse collapse navbar-left"  >
+                   <form class="form-inline my-2">
+                 <ul class="nav navbar-left">
+                   <li ><a href="#">Home</a></li>
+                   <li ><a href="#">Contact</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Products</a></li>
+                  <li > <a href="#">Subscribe</a></li>
+                </ul>
+            </form>
+            
+            <form class="navbar-form navbar-right">
+    
+                <a class="btn btn-primary" [routerLink]="['/register']">Sign up</a>
+                <a class="btn btn-outline-secondary" [routerLink]="['/login']">Login</a>
+            </form>
+            <form class="navbar-form navbar-center" role="search">
+                <div class="form-group" style="padding-left:10%;">
+                  <input type="text" class="form-control" placeholder=" Search" />
+                 </div>
+                 <button type="submit" class="btn btn-danger">submit</button>
+              </form>
+               </div>
+               
+        </nav>
+       
+          <div class="col-xs-12">
+           <div class="dropdown">
+            <div class="btn-group">
+                <div class="dropdown ">
+                  <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+                    Dropdrown
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header"><strong>Header 1</strong></li>
+                    <li> <a href="#">LINK 1 </a></li>
+                    <li> <a href="#">LINK 2 </a></li>
+                    <li class="disabled"> <a href="#">LINK 3 </a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header"><strong>Header 2</strong></li>
+                    <li> <a href="#">LINK 1 </a></li>
+                    <li> <a href="#">LINK 2 </a></li>
+                    <li> <a href="#">LINK 3 </a></li>
+                  </ul>
+                </div>
+              </div>
+          
+        </div>
+          </div>
+        
+        </div>
+</body>
