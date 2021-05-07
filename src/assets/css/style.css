@@ -1,0 +1,64 @@
+.footerv2-w3ls ul.social-iconsv2 {
+    list-style: none;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li a i.fab {
+    font-size: 18px;
+    line-height: 41px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li:first-child {
+    background: #3b5998;
+    color: #fff;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li:nth-child(2) {
+    background: #1da1f2;
+    color: #000;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li:nth-child(4) {
+    background: #287bbc;
+    color: #000;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li:nth-child(3) {
+    background: #dc4a38;
+    color: #000;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li:last-child {
+    background: #f4521f;
+    color: #000;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li a i.fab:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.footerv2-w3ls ul.social-iconsv2 li a:hover {
+    color: #fff;
+}
