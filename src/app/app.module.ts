@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { NavComponent } from './nav/nav.component';
+import { ProductGridComponent } from './product-grid/product-grid.component';
+
 
 @NgModule({
   declarations: [
@@ -17,9 +19,11 @@ import { NavComponent } from './nav/nav.component';
     AccountComponent,
     HeaderComponent,
     FooterComponent,
+    NavComponent,
     LoginComponent,
     RegisterComponent,
-    NavComponent
+    ProductGridComponent
+   
   ],
   imports: [
     BrowserModule,
